@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
-const EmpDetail = () => {
+const DetailAnime = () => {
   const { id } = useParams();
 
   const [data, datachange] = useState({});
@@ -46,4 +46,4 @@ const EmpDetail = () => {
   );
 };
 
-export default EmpDetail;
+export default DetailAnime;
