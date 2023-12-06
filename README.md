@@ -3,6 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Important Instalattion
+
 In this project you should install some dependencies to run perfectly, you can run:
 ### `npm install`
 ### `npm install react-router-dom`
@@ -13,7 +14,12 @@ In this project you should install some dependencies to run perfectly, you can r
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run server-json-start`
+
+Runs the json-server to display the API on your browser.
+Open [http://localhost:8000](http://localhost:8000) to check the list of API.
+
+### `npm start` 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
