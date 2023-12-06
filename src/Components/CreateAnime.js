@@ -3,9 +3,9 @@ import { Link, useNavigate } from "react-router-dom";
 
 const CreateAnime = () => {
   const [id, idchange] = useState("");
-  const [judul, namechange] = useState("");
-  const [genre, emailchange] = useState("");
-  const [rating, phonechange] = useState("");
+  const [judul, judulchange] = useState("");
+  const [genre, genrechange] = useState("");
+  const [rating, ratingchange] = useState("");
   const [validation, valchange] = useState(false);
 
   const navigate = useNavigate();
@@ -49,7 +49,7 @@ const CreateAnime = () => {
                   <div className="col-lg-12">
                     <div className="form-group">
                       <label>Judul</label>
-                      <input required value={judul} onMouseDown={(e) => valchange(true)} onChange={(e) => namechange(e.target.value)} className="form-control"></input>
+                      <input required value={judul} onMouseDown={(e) => valchange(true)} onChange={(e) => judulchange(e.target.value)} className="form-control"></input>
                       {judul.length == 0 && validation && <span className="text-danger">Masukkan Judul</span>}
                     </div>
                   </div>
@@ -57,14 +57,14 @@ const CreateAnime = () => {
                   <div className="col-lg-12">
                     <div className="form-group">
                       <label>Genre</label>
-                      <input value={genre} onChange={(e) => emailchange(e.target.value)} className="form-control"></input>
+                      <input value={genre} onChange={(e) => genrechange(e.target.value)} className="form-control"></input>
                     </div>
                   </div>
 
                   <div className="col-lg-12">
                     <div className="form-group">
                       <label>Rating</label>
-                      <input value={rating} onChange={(e) => phonechange(e.target.value)} className="form-control"></input>
+                      <input value={rating} onChange={(e) => ratingchange(e.target.value)} className="form-control"></input>
                     </div>
                   </div>
                   <div className="col-lg-12 mt-2">
