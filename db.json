@@ -1,0 +1,42 @@
+{
+  "animeList": [
+    {
+      "animeid": 1,
+      "judul": "Jujutsu Kaisen",
+      "genre": "Action, Drama",
+      "rating": "8.0",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "judul": "Naruto Shippuden",
+      "genre": "Action, Drama, Martial Arts",
+      "rating": "9.2"
+    },
+    {
+      "id": 3,
+      "judul": "Horimiya",
+      "genre": "Romance, Comedy",
+      "rating": "8.3"
+    },
+    {
+      "id": 4,
+      "judul": "Saekano",
+      "genre": "Romance",
+      "rating": "8.2"
+    },
+    {
+      "id": 5,
+      "judul": "Yuru camp",
+      "genre": "Slice Of life",
+      "rating": "8.5"
+    },
+    {
+      "animeid": 6,
+      "judul": "Kanojo Okarishimasu",
+      "genre": "Drama",
+      "rating": "8.7",
+      "id": 6
+    }
+  ]
+}
