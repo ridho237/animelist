@@ -16,7 +16,7 @@ In the project directory, you can run:
 
 ### `npm run server-json-start`
 
-Runs the json-server to display the API on your browser.
+Runs the json-server to display the API on your browser.\
 Open [http://localhost:8000](http://localhost:8000) to check the list of API.
 
 ### `npm start` 
