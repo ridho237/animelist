@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# AnimeList with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Important Instalattion
+In this project you should install some dependencies to run perfectly, you can run:
+### `npm install`
+### `npm install react-router-dom`
+### `npm install bootstrap`
+### `npm install -g json-server`
 
 ## Available Scripts
 
