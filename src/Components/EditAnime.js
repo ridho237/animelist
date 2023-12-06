@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 
-const EmpEdit = () => {
+const EditAnime = () => {
   const { id } = useParams();
 
   useEffect(() => {
@@ -104,4 +104,4 @@ const EmpEdit = () => {
   );
 };
 
-export default EmpEdit;
+export default EditAnime;

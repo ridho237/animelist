@@ -17,6 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "server-start": "npx json-server --watch anime.json -p 8000",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

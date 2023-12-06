@@ -77,7 +77,7 @@ const ListAnime = () => {
                         onClick={() => {
                           LoadEdit(item.id);
                         }}
-                        className="btn btn-success"
+                        className="btn btn-warning"
                       >
                         <FontAwesomeIcon icon={faEdit} />
                       </a>
